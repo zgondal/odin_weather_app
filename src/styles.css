@@ -1,0 +1,32 @@
+:root {
+  font-family: "Roboto", serif;
+  font-size: 12px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  font-family: "Roboto", serif;
+  font-weight: 800;
+}
+body .container {
+  display: none;
+  width: 60vw;
+}
+body .container .card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 8px;
+  align-items: center;
+}
+body .container .card img {
+  width: 132px;
+}
+body .container .card p {
+  font-size: 1.5rem;
+  overflow: hidden;
+  height: 1.8rem;
+}/*# sourceMappingURL=styles.css.map */
